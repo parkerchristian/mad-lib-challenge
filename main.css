@@ -1,0 +1,16 @@
+body{
+    font-family:cursive;
+    color:rgb(111, 0, 255);
+}
+
+label {
+    display: block;
+    padding: 5px;
+    border: 1px;
+}
+
+button {
+    color: white;
+    background: rgba(32, 55, 182, 0.582);
+    padding: 5px;
+}
