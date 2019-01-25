@@ -2,11 +2,11 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 #title {
-    color: white;
+    color: rgb(211, 18, 18);
     font-size: 28px;
     font-weight: bold;
     position: relative;
-    top: 210px;
+    top: -100px;
     left: 4.5%;
     z-index: 2;
 }
@@ -17,7 +17,7 @@ body{
     z-index: 1;
 }
 
-th {    
+th {
     text-align: left;
     font-weight: normal;
     font-size: 20px;
