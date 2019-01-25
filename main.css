@@ -2,12 +2,12 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 #title {
-    color: rgb(211, 18, 18);
+    color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: bold;
     position: relative;
     top: -100px;
-    left: 4.5%;
+    left: 60px;
     z-index: 2;
 }
 #image {
@@ -27,9 +27,11 @@ th {
 button {
     color: white;
     background: rgba(32, 55, 182, 0.582);
-    padding: 8px;
+    padding: 10px;
     font-size: 18px;
-    margin-left: 7%;
+    margin-left: 115px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 #theSentence {
