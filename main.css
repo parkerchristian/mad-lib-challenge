@@ -1,16 +1,41 @@
 body{
-    font-family:cursive;
-    color:rgb(111, 0, 255);
+    font-family:'Courier New', Courier, monospace;
+}
+#title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    top: 210px;
+    left: 4.5%;
+    z-index: 2;
+}
+#image {
+    position: relative;
+    top: 0px;
+    left: 0%;
+    z-index: 1;
 }
 
-label {
-    display: block;
-    padding: 5px;
-    border: 1px;
+th {    
+    text-align: left;
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 button {
     color: white;
     background: rgba(32, 55, 182, 0.582);
-    padding: 5px;
+    padding: 8px;
+    font-size: 18px;
+    margin-left: 7%;
 }
+
+#theSentence {
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
