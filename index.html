@@ -8,8 +8,7 @@
 </head>
 <body>
     <!--------- Cloud + Words ---------->
-    <img id= "image" src="https://i.imgur.com/SFkXoWn.jpg" width="400" height="200"/
-    >
+    <img id= "image" src="https://i.imgur.com/SFkXoWn.jpg" width="400" height="200">
     <div id="title">Fill in the Blanks! <br>Create a Mad Lib!</div>
     
     <!--------- Table used for inputting words --------->
@@ -64,15 +63,15 @@
         </table>
     
     <br> 
-    <!-------Start Over button with built in CSS -------->
-    <input style=  "color: white;
-    			    background: rgba(32, 55, 182, 0.582);
-    			    padding: 10px;
-    			    font-size: 18px;
-    			    margin-left: 15px;
-    			    margin-top:20px;
-    			    margin-bottom: 20px;
-                    margin-right: 55px; " 
+    <!--Start Over button with built in styling & tagged in CSS-->
+    <input style="  color: white;
+                    background: rgba(32, 55, 182, 0.582);
+                    padding: 10px;
+                    font-size: 18px;
+                    margin-left: 15px;
+                    margin-top:20px;
+                    margin-bottom: 20px;
+                    margin-right: 55px; "
                  
             id type = "button" onclick="pushit()" value="Start Over"
     >
@@ -99,10 +98,12 @@
     <script src="main.js"></script>
 <br>
 
-    <!------------- Alchemy Code Picture ------------>
-    <span class="acPic">
+    <!--------Alchemy Code Picture w/link to Home Page------->
+    <a href="https://www.alchemycodelab.com/">
+        <span class="acPic">
         <img src="data:image/png;base64,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">
     </span>
+    </a>
 <br>
 
 
@@ -113,6 +114,6 @@
 
 <!--        Note to Class:
     
-    I'm sure there is a simplier way of building this code/webpage without both FORM ID & INPUT ID. Along with building all three languages in only the HTML file. I'm sure we'll be learning this soon! I tried to stick with what I already built in class without deleting any prior code. I spent enough hours on this learning different methods and ways of doing things without starting from scratch. All of this was very insightful. Best way to learn... trying and failing, then defining and refining
+    I'm sure there is a simplier way of building this code/webpage without both FORM ID & INPUT ID. Along with building all three languages in only the HTML file. I'm sure we'll be learning this soon! I tried to stick with what I already built in class without deleting any prior code. I spent enough hours on this learning different methods and ways of doing things without starting from scratch. All of this was very insightful. Best way to learn... trying and failing, then defining and refining.
                     - Parker
 -->
