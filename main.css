@@ -1,18 +1,19 @@
 body{
     font-family:'Courier New', Courier, monospace;
 }
+
 #title {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: bold;
     position: relative;
-    top: -100px;
-    left: 60px;
+    top: -65px;
+    left: 50px;
     z-index: 2;
 }
 #image {
     position: relative;
-    top: 0px;
+    top: 25px;
     left: 0%;
     z-index: 1;
 }
@@ -29,7 +30,7 @@ button {
     background: rgba(32, 55, 182, 0.582);
     padding: 10px;
     font-size: 18px;
-    margin-left: 115px;
+    margin-left: 10px;
     margin-top:20px;
     margin-bottom: 20px;
 }

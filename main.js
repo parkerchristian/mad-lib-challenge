@@ -23,20 +23,20 @@ function madLib() {
     theSentence.innerHTML = results;
     
         //error message for blank spaces on madlib
-    if (famousPerson.length === 0 || anyNumber.length === 0 ||       pluralNoun.length === 0 || verb.length === 0 ||              descriptiveAdjective.length === 0 || slangWord.length        === 0
-        )
-        {alert("PLEASE FILL OUT ALL BLANKS TO MAKE YOUR MADLIB :)");}
+    if (
+        famousPerson.length === 0 || anyNumber.length === 0 ||          pluralNoun.length === 0 || verb.length === 0 ||                 descriptiveAdjective.length === 0 || slangWord.length === 0
+    )
+        //alert message
+    {alert("PLEASE FILL OUT ALL BLANKS TO MAKE YOUR MADLIB :)");}
 
         //if no blanks then it fills out madlib
     else {
-        document.getElementById('famous-person').innerHTML =    famousPerson;
+        document.getElementById('famous-person').innerHTML =        famousPerson;
         document.getElementById('any-number').innerHTML = anyNumber;
         document.getElementById('plural-noun').innerHTML =  pluralNoun;
         document.getElementById('verb').innerHTML = verb;
-        document.getElementById('descriptive-adjetive').innerHTML = descriptiveAdjective;
+        document.getElementById('descriptive-adjetive').innerHTML =     descriptiveAdjective;
         document.getElementById('slang-word').innerHTML = slangWord;
-     }
-
-
+    }
 
 }
