@@ -45,3 +45,11 @@ button, [type~=button], [type~=submit] {
     font-size: 25px;
 }
 
+#footer{
+    background-color:black; 
+    color:white; 
+    padding: 5px; 
+    font-size: 14px; 
+    margin-top:10px; 
+    margin-left:125px;
+}
